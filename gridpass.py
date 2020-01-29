@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#Version 0.1. Updates will be unlikely, unless something is fundamentally broken or needed.
 from string import ascii_lowercase as lowercase
 from string import ascii_uppercase as uppercase
 from string import digits,punctuation
@@ -42,7 +43,6 @@ def read_grid(grid):
   return squares
 
 def main(grid, passwd):
-  print(passwd)
   print(''.join(str(grid[v]) for v in passwd))
 
 if args.generate:
